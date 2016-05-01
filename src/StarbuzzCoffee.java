@@ -35,5 +35,23 @@ public class StarbuzzCoffee {
 		beverage31 = new Whip(beverage31);
 		beverage31 = new EmployeeDiscount(beverage31);
 		System.out.println(beverage31.getDescription() + " $" + beverage31.cost());
+		
+		System.out.println("\n\nOrder 6");
+		Beverage beverage4 = new Espresso();
+		beverage4.setSize(Beverage.SMALL);
+		beverage4 = new Soy(beverage4);
+		System.out.println(beverage4.getDescription() + " $" + beverage4.cost());
+		
+		System.out.println("\n\nOrder 7");
+		Beverage beverage41 = new Espresso();
+		beverage41.setSize(Beverage.MEDIUM);
+		beverage41 = new Soy(beverage41);
+		System.out.println(beverage41.getDescription() + " $" + beverage41.cost());
+		
+		System.out.println("\n\nOrder 8");
+		Beverage beverage42 = new Espresso();
+		beverage42.setSize(Beverage.LARGE);
+		beverage42 = new Soy(beverage42);
+		System.out.println(beverage42.getDescription() + " $" + beverage42.cost());
 	}
 }
