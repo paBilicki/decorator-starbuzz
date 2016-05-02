@@ -2,7 +2,6 @@
 public class Soy extends CondimentDecorator {
 	@Override
 	public int getSize() {
-		// TODO Auto-generated method stub
 		return super.getSize();
 	}
 

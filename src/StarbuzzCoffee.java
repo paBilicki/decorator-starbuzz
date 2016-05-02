@@ -30,10 +30,11 @@ public class StarbuzzCoffee {
 		
 		System.out.println("\n\nOrder 5");
 		Beverage beverage31 = new HouseBlend();
+		beverage31.setSize(Beverage.LARGE);
 		beverage31 = new Soy(beverage31);
 		beverage31 = new Mocha(beverage31);
 		beverage31 = new Whip(beverage31);
-		beverage31 = new EmployeeDiscount(beverage31);
+//		beverage31 = new EmployeeDiscount(beverage31);
 		System.out.println(beverage31.getDescription() + " $" + beverage31.cost());
 		
 		System.out.println("\n\nOrder 6");
@@ -53,5 +54,10 @@ public class StarbuzzCoffee {
 		beverage42.setSize(Beverage.LARGE);
 		beverage42 = new Soy(beverage42);
 		System.out.println(beverage42.getDescription() + " $" + beverage42.cost());
+		
+		int a = 2;
+		double b = .3;
+		System.out.println(a*b);
+		
 	}
 }
