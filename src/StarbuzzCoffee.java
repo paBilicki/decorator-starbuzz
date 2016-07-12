@@ -1,3 +1,11 @@
+import bevarages.Beverage;
+import bevarages.DarkRoast;
+import bevarages.Espresso;
+import bevarages.HouseBlend;
+import condiments.Mocha;
+import condiments.Soy;
+import condiments.Whip;
+import discounts.StudentDiscount;
 
 public class StarbuzzCoffee {
 
@@ -34,7 +42,7 @@ public class StarbuzzCoffee {
 		beverage31 = new Soy(beverage31);
 		beverage31 = new Mocha(beverage31);
 		beverage31 = new Whip(beverage31);
-//		beverage31 = new EmployeeDiscount(beverage31);
+//		beverage31 = new discounts.EmployeeDiscount(beverage31);
 		System.out.println(beverage31.getDescription() + " $" + beverage31.cost());
 		
 		System.out.println("\n\nOrder 6");
@@ -54,10 +62,6 @@ public class StarbuzzCoffee {
 		beverage42.setSize(Beverage.LARGE);
 		beverage42 = new Soy(beverage42);
 		System.out.println(beverage42.getDescription() + " $" + beverage42.cost());
-		
-		int a = 2;
-		double b = .3;
-		System.out.println(a*b);
 		
 	}
 }

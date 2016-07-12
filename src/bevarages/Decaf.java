@@ -1,7 +1,8 @@
+package bevarages;
 
 public class Decaf extends Beverage {
 	public Decaf() {
-		description = "Decaf Coffee";
+		description = "bevarages.Decaf Coffee";
 	}
 
 	@Override

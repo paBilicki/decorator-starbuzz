@@ -1,3 +1,6 @@
+package condiments;
+
+import bevarages.Beverage;
 
 public class Soy extends CondimentDecorator {
 	@Override
@@ -14,7 +17,7 @@ public class Soy extends CondimentDecorator {
 
 	@Override
 	public String getDescription() {
-		return beverage.getDescription() + ", Soy";
+		return beverage.getDescription() + ", condiments.Soy";
 	}
 
 	@Override

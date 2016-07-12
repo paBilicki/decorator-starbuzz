@@ -1,3 +1,6 @@
+package condiments;
+
+import bevarages.Beverage;
 
 public class Milk extends CondimentDecorator {
 	Beverage beverage;
